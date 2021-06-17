@@ -7,14 +7,14 @@
                    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
       
     <bean id="r" class="com.vm.entity.Restuarant">  
-    <property name="name" ref="A2b"></property> 
-    <property name="IHotDrink" ref="c"></property>  
+    <property name="name" value="java"></property> 
+    <property name="ihotdrink" ref="c"></property>  
     
     
     
     </bean> 
     
-    <bean id="t" class="com.vm.entity.tea"></bean> 
-    <bean id="p" class ="com.vm.entity.pepsi"></bean>
-    <bean id="c" class="com.vm.entity.coffee"></bean>
+    <bean id="t" class="com.vm.entity.Tea"></bean> 
+    <bean id="p" class ="com.vm.entity.Pepsi"></bean>
+    <bean id="c" class="com.vm.entity.Coffee"></bean>
     </beans>
